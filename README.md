@@ -35,10 +35,9 @@
       `sGraph.generate(your_sbml_json_obj);` 
   4.  Set mode to select 
       `sGraph.setPanMode(dragMode);
-      
-      ![A network with a compartment containing 3 species and a reaction](C:\Users\vrushali_deshpande\Desktop\I1.png)
-      
+           
   
 ###  Demo
 A simple demo application for D3-SCoMoS library can be found here:
 http://eskin.persistent.co.in/git/d3scomosdemo
+Note: Please use Google Chrome / Mozilla Firefox browser to view this demo.
