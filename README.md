@@ -27,14 +27,19 @@
 ### Example
 
 1. Include in your project 
-     `<script src="/js/D3_SCoMoS/d3/d3.js"></script>`  
-     `<script src="/js/D3_SCoMoS/dist/d3scomos.js"></script>`  
-  2.  Select div to draw graph on 
-      `var sGraph = d3scomos.eskinModel(d3.select('#chart'),{'height':"450px"});`
-  3.  Pass your SBML JSON to library
-      `sGraph.generate(your_sbml_json_obj);` 
-  4.  Set mode to select 
-      `sGraph.setPanMode(dragMode);
+  
+  `<script src="/js/D3_SCoMoS/d3/d3.js"></script>`  
+  `<script src="/js/D3_SCoMoS/dist/d3scomos.js"></script>`
+2. Select div to draw graph on
+	
+    `var sGraph = d3scomos.eskinModel(d3.select('#chart'),{'height':"450px"});`
+3. Pass your SBML JSON to library
+	
+    `sGraph.generate(your_sbml_json_obj);` 
+4. Set mode to select
+	
+    `sGraph.setPanMode(dragMode);`
+
            
   
 ###  Demo
