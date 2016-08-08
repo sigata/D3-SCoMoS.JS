@@ -36,9 +36,11 @@
 3. Pass your SBML JSON to library
 	
     `sGraph.generate(your_sbml_json_obj);` 
-4. Set mode to select
 	
-    `sGraph.setPanMode(dragMode);`
+    Note: You can view the demo application specified below to know the JSON format.
+5. Set mode to select
+	
+    `sGraph.setPanMode('PAN');`
 
            
   
